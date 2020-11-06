@@ -10,7 +10,7 @@ int naive_brute_force(char* text, char* pattern)
 	int pos;
 	for (i=0; i<26; i++)
 	{
-		for (j=0; j<4 && (i+j)<26; j++)
+		for (j=0; j <=j-ı; (i+j)<26; j++)
 			if (text[i+j] != pattern[j])
 				break;
 				//mismatch found, break the inner loop with j
